@@ -1,31 +1,12 @@
-Try on: [Codespace](https://github.com/codespaces/new?template_repository=abernier%2Ftpl-react-three) | [CodeSandbox](https://codesandbox.io/s/github/abernier/tpl-react-three)
+[Codespace](https://github.com/codespaces/new?template_repository=vscodeshool%2Fr3f)
 
 # INSTALL
 
 Pre-requisites:
 
-- Node
+- [x] [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
 
 ```sh
-$ npm ci
+$ git clone https://github.com/vscodeschool/r3f.git
+$ code r3f
 ```
-
-# Dev
-
-```sh
-$ npm run dev
-```
-
-# Build
-
-```sh
-$ npm run build
-```
-
-## Deploy
-
-Pre-requisites: 
-
-- Make sure you have Github Pages set to `Github Actions` in your [project's Settings](/../../settings/pages)
-
-A Github Actions [deploy](.github/workflows/deploy.yml) task will build and deploy to `https://{username}.github.io/{reponame}` when pushing on `main`.
