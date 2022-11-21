@@ -14,7 +14,8 @@
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "zixuanchen.vitest-explorer",
-        "bierner.markdown-mermaid"
+        "bierner.markdown-mermaid",
+        "vsls-contrib.codetour"
       ]
     }
   },
