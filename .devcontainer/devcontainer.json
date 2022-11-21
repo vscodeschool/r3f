@@ -11,14 +11,15 @@
     "vscode": {
       "settings": {},			
       "extensions": [
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
       ]
     }
   },
   "portsAttributes": {
     "5173": {
       "label": "Vite dev server",
-      "onAutoForward": "notify"
+      "onAutoForward": "openPreview"
     }
   },
   "forwardPorts": [5173]
