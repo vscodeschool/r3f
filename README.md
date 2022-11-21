@@ -10,3 +10,5 @@ Pre-requisites:
 $ git clone https://github.com/vscodeschool/r3f.git
 $ code r3f
 ```
+
+IMPORTANT: once your project opened, **click `"Reopen in Container"`**
